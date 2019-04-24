@@ -1,0 +1,31 @@
+#results {
+	margin-top: 3%;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.coin{
+	border: solid black 1px;
+    width: 20em;
+    margin: 1%;
+    padding: 1%;
+}
+
+.symbol-and-toggle {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coin-symbol{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.toggle{
+    margin-top: 0.5em;
+}
+
+.coin-name{
+    font-size: 1.3em;
+}
